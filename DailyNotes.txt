@@ -131,9 +131,9 @@ Dict:
 					AGI
 			V,V,V,V
 			
-			supervised
-			unsupervised
-			reinforcement
+			supervised --->data--->features   --->price (label)
+			unsupervised---->
+			reinforcement-->
 			
 			
 			
