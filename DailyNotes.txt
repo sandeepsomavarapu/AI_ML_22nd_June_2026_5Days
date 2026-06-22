@@ -1,0 +1,155 @@
+
+Python:
+=======
+				python -->python.org
+				vscode-->IDE
+				jupyterlab
+				pip install  numpy
+
+			EASY 
+			
+			.java  50+
+			class Welcome{
+			public static void main(String args[]){
+			System.out.println("welcome");
+			}
+			
+			}
+
+  30+  1991-->guido van russam
+  
+  rich library -->pip install
+  
+  vaariables-->place holder  -->contact number--999999999--sandeeep trainer
+datatypes
+functions
+oops
+  exception handling
+  multi threading
+  files
+  
+		class
+		if 10>5
+		else
+		switch
+		['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+		
+  def print():
+	...
+	...
+	...
+  String name="sandeep"  static typed 
+	name="sandeep"-->python is dynamic typed lang
+	gender="m"
+	datatypes--->string,int,float,bool,complex,range....fundamental DT  single value 
+	Advanced DT--->group of values
+			LIST, TUPLE, SET, FROZENSET, DICT
+	
+	type(varname)
+	
+	
+	numpy--->
+	
+	python fullstack-->core python ,advanced(django,flask)
+	
+				libraries 
+	
+			string="1234@fghjk"
+		  1234
+		  2.
+		mailid=
+		phone number
+		
+		
+		conversion   int(),bool(),str(),float()
+				-->"12"  -->12
+				"True"-->True
+	Advanced DT:	
+					LIST, TUPLE, SET, FROZENSET, DICT
+					when we have requirement to store group of values as single entity
+		LIST:
+=======	  
+				names=suresh,akash,mahesh...12345,67,True
+				
+				1.duplicates are allowed 
+				2.insertion order is preserved 
+				3.[]
+				4.homogeneous/haterogeneous
+				5.muttable      (not fixed in size)/growable in nature
+		Tuple:
+=======	  
+				names=suresh,akash,mahesh...12345,67,True
+				
+				1.duplicates are allowed 
+				2.insertion order is preserved 
+				3.()
+				4.homogeneous/haterogeneous
+				5.imuttable      (fixed in size)/not growable in nature				
+SET
+====			
+					names=suresh,akash,mahesh...12345,67,True
+				
+				1.duplicates are not allowed 
+				2.insertion order is not preserved 
+				3.{}
+				4.homogeneous/haterogeneous
+				5.muttable      (not fixed in size)/growable in nature
+					
+FROZENSET:
+===========	
+					names=suresh,akash,mahesh...12345,67,True
+				
+				1.duplicates are not allowed 
+				2.insertion order is not preserved 
+				3.frozenset ({})
+				4.homogeneous/haterogeneous
+				5.Imuttable      ( fixed in size)/not growable in nature
+Dict:
+=====dict is set of entries(item)
+			group of object key,value
+			
+			1)key must be unique value can be duplicates
+			2)key,value can be any DT -->entry
+			3){k:v,k:v....}
+			
+	py		indentation
+		PVM
+		
+		AI
+		Alan turing-->Engima
+		John meccathy	
+			
+			
+							AI   ---->ANI,AGI,ASI
+									Machine Learning
+											DL
+									Generative AI		-->Generative AI
+									Agentic AI-->Agent --coding
+												
+					multi agent communication
+					
+					AGI
+			V,V,V,V
+			
+			supervised
+			unsupervised
+			reinforcement
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+
+
+
+
+
+
