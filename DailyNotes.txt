@@ -135,13 +135,86 @@ Dict:
 			unsupervised---->
 			reinforcement-->
 			
+			Data+algoritham-->Model
+			ML-->features -->label
+			scikit learn-->numpy+scipy
+					
+					pip install numpy/pandas
+					
+					import numpy as np   -->NDarray
+					
+					pandas-->Dataframe,Series
+					matplotlib--->pyplot
+					seaborn-->
 			
-			
-			
-			
-			
-			
-			
+		Supervised Learning
+
+regression (if the output is number)
+		Linear 
+		RandomF
+		DT  
+Classification
+		Logistic
+		DT
+		RF
+		KNN
+
+		Un-Supervised Learning
+K-means
+hirarchial
+
+ML-->
+	Scikit
+		pip install  scikit-learn
+	
+import scikit-learn as sk
+
+==Iris.loadiris()
+
+
+		total records--150
+		
+			40% of 150-->60  for testing
+			60% of 150 -->90 for training
+		
+		
+#Metric	                  								  What it Measures	                                                                                          						 Interpretation (Lower is better)
+#Mean Absolute Error (MAE)		The average magnitude of errors in a set of predictions.	                                                   Represents the average absolute dollar amount the prediction is off by (e.g., if MAE is 0.5, the model is off by $50,000).
+#Mean Squared Error (MSE)		The average of the squared errors.                                                                             Penalizes large errors heavily. Useful when large prediction errors are especially undesirable.
+#**R-squared (R2) Score**		The proportion of the variance in the dependent variable that is predictable from the independent variables.   Ranges from 0 to 1. Closer to 1 is better (e.g., R2 of 0.8 means the model explains 80% of the variance).
+		
+		Predicted 3,50,000
+		Actual  3,00,000
+		Error -50000
+		
+		
+		actual price				pridectedprice      Error
+			3.0									3.5(50k)             0.5
+			2.0									1.8						 0.2
+			4.0                                   3.5						0.5
+		
+		MAE =(0.5+0.2+0.5)/3=0.4
+		
+							0.5332*100,000=53320
+		
+        MSE=(0.25+0.04+0.25)/3=0.18
+
+		R2=0-1   
+				0-->bad understanding of data by model
+				1-->good understanding of data by model
+				
+
+
+
+
+
+
+
+
+
+
+
+		
 			
 			
 			
