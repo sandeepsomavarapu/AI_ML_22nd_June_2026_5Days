@@ -205,24 +205,159 @@ import scikit-learn as sk
 				
 
 
+					Dog  or not Dog
+					
+					DOG-->Positive
+					NO DOG-->-ve
+	confusion matrix		
+	
 
-
-
-
-
-
-
-
-
+Churn detection  :	
+			Churn=customer leaves the  company   0        P
+			no churn=customer stays							1         N
+			https://github.com/YBIFoundation/Dataset/raw/main/TelecomCustomerChurn.csv
+			
+			
+			7043 --total data
+			0.2->20%  -->1408
+			
+Confusion Matrix:
+[[939 (TP)    97(FN)]
+ [161(FP)     212(TN)]]   1408
+ 
+ 939-->TP-->correctly predicted churn customer
+  97-->FN-->cutomer churned  but model missed
+   161-->FP-->said churn but actually not
+   212-->TN-->said not churn actually not churn
+ 
+ 
+		accuracy  --->  TP+TN
+				
+								939+212   1151
+								----------					81
+								1408
+	
+		precision
+					TP						939
+					Tp+FP			939+161 = 1100
 		
+		recall
+ 
+TP     FN
+FP       TN
+
+
+7043
+
+
+
+Linear Regression
+
+
+
+		expe			salary
+		1						2lpa
+		2                     4lpa
+		
+		
+		
+			Gradient
+			
+					step1
+							AP -3.0
+							predicted-->2.5
+								error 0.5
+					step2
+							0.3
+							Extreme Gradiant Boosting
+							XGBoost->superset of Gradient boosting
+							
+							
+							Focus on  accuracy to reduce   FN (Overall)
+							focus on recall and precision to reduce    FP  
+							
+			RFM				-->Recency,frequency,monetary
+							
+							customer 1
+									
+									jan10 ,jan5 ,jan1
+							
+							jan10
+							
+							snapshot date =jan11
+								
+							recenecy =1
+							
+							recency     
+							low(1-5  days)	   very active customer
+							high		
+				Frequency
+						10   -->loyal customer
+						1
+						
+				Monetary
+						10+20+30=60
+						
+						c1       101      jan 1    100
+						c1       102      jan 1    200
+								 R       F      M
+						c1     5      15      2000
+						c2    50      3     300
+						c3     10     8      800
+				
+						
+						R(Attendance)  ,F(no of exams)  ,M(marks)
+								cluster1
+										low R
+										High F
+										High   M
+													High value /premium customer
+								cluster2
+									high  R
+									Low  F
+									Low M
+													in active customers
+									cluster3
+									high  R
+									Low  F
+									high M
+													in  moderate customers				
+									
+									
+									
+									
+									
+									
+									
+									
+									
+										
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
 			
 			
 			
 			
-
-
-
-
-
-
-
+			
+			
+			
+			
